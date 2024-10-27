@@ -1,0 +1,26 @@
+body {
+    background-color: #000000;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 2px;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 21px;
+    border: solid 1px rgb(0, 0, 0);
+  }
+  
+  .cell.alive {
+    background-color: #00ff08; /* Color for alive cells */
+  }
+  
+  .cell.dead {
+    background-color: #000000; /* Color for dead cells */
+  }
+
+  
